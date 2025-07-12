@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SQL WHERE Clause Builder</title>
+    <title>SQL WHERE IN Builder</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>SQL WHERE Clause Builder</h1>
+    <header>
+        <h1>SQL WHERE IN Builder</h1>
+    </header>
     
-    <textarea id="input-values" placeholder="Paste your list of values here..."></textarea>
-    
-    <button id="convert-btn">Convert</button>
-    
-    <textarea id="output-values" readonly placeholder="Formatted values will appear here..."></textarea>
+    <main class="main-container">
+        <textarea id="input-values" placeholder="Paste your list of values here..." aria-label="Input values"></textarea>
+        <section class="button-container">
+            <button id="convert-btn" type="button">Convert</button>
+            <button id="copy-btn" type="button">Copy to Clipboard</button>
+            <label for="add-quotes" class="checkbox-container">
+                <input type="checkbox" id="add-quotes" checked>
+                Add quotes
+            </label>
+        </section>
+        <textarea id="output-values" readonly placeholder="Formatted values will appear here..." aria-label="Output values"></textarea>
+    </main>
     
     <script src="assets/js/script.js"></script>
 </body>
