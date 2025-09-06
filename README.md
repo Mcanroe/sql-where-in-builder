@@ -13,7 +13,7 @@ An extremely simple web application using JS that formats a list of values for a
 
 There are sites online that do the same but I do not trust their privacy policies.
 
-While this can be done via Excel functions or Datagrip natively, this is something I've built if you do not or cannot use those tools (which in my case is quite often) 
+While this can be done via Excel functions or Datagrip natively, this is something I've built if you do not or cannot use those tools (which in my case is quite often).
 It also served as a good starting point to learn a little bit of JS.
 
 ## Privacy
