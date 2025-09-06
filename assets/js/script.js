@@ -29,7 +29,7 @@ function convertValues() {
         }
     }
     
-    const sqlInClause = `WHERE IN (${cleanedValues.join(', ')})`;
+    const sqlInClause = `(${cleanedValues.join(', ')})`;
     
     // Display the result
     outputTextArea.value = sqlInClause;
